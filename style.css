@@ -1,0 +1,235 @@
+body{
+  background-image: 'image1.jpg';
+}
+
+.navbar-inverse{
+background-color: lightgray;
+}
+
+.container {
+  margin: 0px;
+  display: flex;
+  align-content: baseline;
+  size: 10px;
+  
+}
+
+#div2{
+  margin:auto;
+  width: 70%;
+  border: 3px ;
+  padding: 30px;
+  padding-bottom: 40px;
+  background-color: rgba(255,255,255,0.5); 
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+a{
+  color:black;
+  size:20px;
+}
+
+img {
+  max-width: 50%;
+  max-height:70%;
+  padding-top: 15px;
+}
+
+.text {
+  font-size: 10px;
+  padding-left: 10px;
+
+}
+
+#med{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: -80px;
+ 
+}
+
+#s{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 10;
+  margin-left: -80px;
+  font-size: 15px;
+}
+
+#wc{
+  font-weight: bold;
+  text-align: center;
+  size: 50px;
+}
+
+#div1{
+  margin:auto;
+  width: 70%;
+  border: 3px ;
+  padding: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+@keyframes slideInleft {
+  from{
+    transform:translateX(-300px);
+  }
+
+  to{
+    transform:translateX(0);
+  }
+}
+ 
+#div1{
+  animation-name: slideInleft;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  
+}
+image{
+  size: 10px;
+}
+h1 {
+  
+  font-size: 50px;
+  margin: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:400;
+}
+
+.resize {
+  width: 150px;
+  height: 100px;
+}
+
+
+
+
+
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+ 
+input
+{
+    background: grey
+}
+
+.travel_mainDiv
+{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.travel_mainDiv img
+{
+  width: 100%;
+}
+
+.travel_mainDiv hr
+{
+    width: 230px; 
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+
+.environment_li
+{
+  margin-top: 13px;
+}
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img
+{
+  border-radius: 25px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
+
+
+
